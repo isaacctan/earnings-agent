@@ -74,3 +74,10 @@ Run the live agent only when you are ready to use API credits. Start with one pr
 | `tests/` | Automated checks |
 
 If a figure or explanation cannot be verified against the release, the agent should flag it for review rather than silently treating it as correct. Its recommendation is a draft, not a substitute for analyst judgment.
+
+## Project handoff and evaluation
+
+- [One-page spec](./docs/one_page_spec.md)
+- [Test set and results](./docs/test_set_and_results.md)
+- [Status memo](./docs/status_memo.md)
+- [Source list and estimate citation gaps](./docs/source_list.md)

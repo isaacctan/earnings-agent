@@ -116,3 +116,14 @@ don't wait until it is fixed.
 - Severity: low (the agent still runs on hand-entered estimates)
 - Status: accepted
 - What we did about it: consensus is optional; failures give a plain message; nothing else depends on it.
+
+### F-009  Backtest can score a saved run from an older release version
+- Date found: 2026-11-20
+- Found by: backtest
+- Release / file: `SAMPLE sample_release_FICTIONAL`
+- What happened: the answer key and practice release had been changed from Example Lending Corp. to Example Devices Corp., but the saved run still described the old lender release. The backtest reported `SAMPLE sample_release_FICTIONAL operating_income: agent None, answer key 18.922`.
+- What should have happened: the evaluation should use a result generated from the exact release text and metric set currently being labeled, or stop and request a fresh run.
+- Why (root cause): saved runs are addressed by ticker and release-date/file key; the scorer does not compare the saved source text with the current source file.
+- Severity: medium (a stale result can create a false failure or, if old values happen to match, a false pass)
+- Status: observed
+- What we did about it: regenerated the current fictional sample result and reran the backtest. It then matched 4/4 figures. The evaluator still needs a source fingerprint or stale-run warning to prevent recurrence.

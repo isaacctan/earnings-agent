@@ -630,7 +630,7 @@ Claude Code is an AI coding assistant that works inside your project folder. Two
 
 ## 16. What has and hasn't been tested
 
-**Tested** (39 automatic checks, run with `pytest`):
+**Tested** (40 automatic checks, run with `pytest`; last verified 2026-11-20):
 - number reading and unit conversion,
 - variance arithmetic, including zero and negative estimates,
 - every figure check,
@@ -645,9 +645,9 @@ Claude Code is an AI coding assistant that works inside your project folder. Two
 - the app, from loading a file through editing next quarter's numbers and approving, and the scoring script.
 
 **Not yet tested**, because each needs a live connection from your own computer:
-- **The live SEC download.** The download code has only been run against simulated SEC responses.
+- **Live SEC fetching for the current big-tech coverage list.** A saved OMF SEC release came from the earlier lender setup and does not validate the current list.
 - **The live Yahoo Finance pull.** Built from the `yfinance` package's own code and tested with simulated data only. On your first pull, check the quarters and numbers against Yahoo's website.
-- **The live Claude calls.** The prompts have not been run against a real model. The expected results in sections 4 and 12 describe the design; your first real runs will show how Claude actually behaves.
+- **Repeated live Claude calls across multiple real-company releases.** One Claude Haiku call on the fictional Example Devices release matched all four answer-key figures and passed the four backtest criteria. This is one fictional release, not evidence of broad accuracy.
 
 Record what you find in `docs/failure_log.md`. For this project, a documented failure is a result, not a setback.
 

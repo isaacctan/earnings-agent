@@ -15,4 +15,6 @@ is off, and fill in the last column yourselves.
 | 2026-11-16 | Claude | Building the agent | Extraction and classification prompts, checks, variance math, decision rules, note template, app review screen, scoring script, tests, practice and red-team files, project guide, Claude Code context and skills | |
 | 2026-11-19 | Claude | Consensus estimates | Yahoo Finance consensus pull, seeding of the team's estimates, next-quarter revision proposals with analyst approval, related tests and documentation | |
 | 2026-11-19 | Claude | Changing coverage | Switched coverage to large-cap tech (AAPL, MSFT, NVDA, AMZN, GOOGL), replaced lender metrics with operating income, new practice company and attack files, classify prompt v2 | |
+| 2026-11-20 | Claude Haiku 5.5 | Fictional practice run | Extracted four figures, classified three drivers, and read raised guidance in the Example Devices sample | Numeric quotes and figures matched the answer key; one-run scope; analyst review still applies |
+| 2026-11-20 | Copilot SDK | Evaluation and project handoff | Synced the team's committed estimates, reviewed the backtest and tests, and drafted the spec, status memo, test report, and source list | Team review still needed; estimate source URLs remain incomplete |
 | | | | | |
