@@ -31,4 +31,4 @@
 
 **Who does what.** Claude extracts and interprets text. Python checks quotes, converts units, calculates variances, and applies fixed rules. A person reviews and approves.
 
-**How to try it.** Follow [`../START_HERE.md`](../START_HERE.md) or [`../README.md`](../README.md). Live model calls require each teammate's own Anthropic API key and incur usage charges. `pytest` is the no-cost offline test path; it uses scripted Claude responses, not live API credentials.
+**How to try it.** Follow [`../../START_HERE.md`](../../START_HERE.md) or [`../../README.md`](../../README.md). Live model calls require each teammate's own Anthropic API key and incur usage charges. `pytest` is the no-cost offline test path; it uses scripted Claude responses, not live API credentials.

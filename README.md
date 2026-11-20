@@ -77,7 +77,4 @@ If a figure or explanation cannot be verified against the release, the agent sho
 
 ## Project handoff and evaluation
 
-- [One-page spec](./docs/one_page_spec.md)
-- [Test set and results](./docs/test_set_and_results.md)
-- [Status memo](./docs/status_memo.md)
-- [Source list and estimate citation gaps](./docs/source_list.md)
+- [Project handoff folder](./docs/handoff/README.md)

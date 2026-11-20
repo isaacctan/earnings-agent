@@ -73,7 +73,7 @@ Mismatches:
 Overall: the agent DOES NOT PASS (yet).
 ```
 
-The saved result described the old Example Lending Corp. release, while the current practice file and answer key described Example Devices Corp. Re-running the current practice file corrected the mismatch. The backtest does not yet detect stale results when a file changes but keeps the same ticker/date key; see F-009 in [`failure_log.md`](./failure_log.md).
+The saved result described the old Example Lending Corp. release, while the current practice file and answer key described Example Devices Corp. Re-running the current practice file corrected the mismatch. The backtest does not yet detect stale results when a file changes but keeps the same ticker/date key; see F-009 in [`failure_log.md`](../failure_log.md).
 
 ## What this does not establish
 
