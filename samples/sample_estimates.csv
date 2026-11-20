@@ -1,0 +1,5 @@
+ticker,fiscal_year,quarter,metric,estimate,unit,method
+SAMPLE,2026,3,revenue,150.0,USD millions,Made up for the practice file
+SAMPLE,2026,3,operating_income,18.5,USD millions,Made up for the practice file
+SAMPLE,2026,3,net_income,12.5,USD millions,Made up for the practice file
+SAMPLE,2026,3,diluted_eps,1.25,USD per share,Made up for the practice file

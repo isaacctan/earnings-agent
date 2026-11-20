@@ -1,0 +1,3 @@
+run_at,ticker,release_date,overall_call,confidence,flags,model
+2026-11-19T20:30:46,SAMPLE,sample_release_FICTIONAL,REVISE UP,high,0,claude-haiku-5-5
+2026-11-19T20:41:23,OMF,2026-10-30,NEEDS REVIEW,low,1,claude-haiku-5-5

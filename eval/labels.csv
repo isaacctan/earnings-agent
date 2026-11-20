@@ -1,0 +1,5 @@
+ticker,release_date,metric,true_value,unit,labeled_by
+SAMPLE,sample_release_FICTIONAL,revenue,165.512,USD millions,example
+SAMPLE,sample_release_FICTIONAL,operating_income,18.922,USD millions,example
+SAMPLE,sample_release_FICTIONAL,net_income,14.196,USD millions,example
+SAMPLE,sample_release_FICTIONAL,diluted_eps,1.42,USD per share,example

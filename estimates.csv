@@ -1,0 +1,4 @@
+ticker,fiscal_year,quarter,metric,estimate,unit,method
+OMF,2026,3,revenue,150.0,USD millions,Team estimate
+OMF,2026,3,net_income,12.5,USD millions,Team estimate
+OMF,2026,3,diluted_eps,1.25,USD per share,Team estimate

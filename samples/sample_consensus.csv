@@ -1,0 +1,5 @@
+pulled_at,ticker,fiscal_year,quarter,period_end,metric,consensus,low,high,analysts,unit,basis,kind,source
+2026-11-01,SAMPLE,2026,3,2026-09-30,diluted_eps,1.3,,,,USD per share,gaap,historical,Made up for the practice file
+2026-10-01,SAMPLE,2026,3,2026-09-30,revenue,152.0,148.0,155.0,4,USD millions,provider-defined,forward,Made up for the practice file
+2026-11-01,SAMPLE,2026,4,2026-12-31,diluted_eps,1.35,1.28,1.41,4,USD per share,gaap,forward,Made up for the practice file
+2026-11-01,SAMPLE,2026,4,2026-12-31,revenue,158.0,154.0,161.0,4,USD millions,provider-defined,forward,Made up for the practice file
