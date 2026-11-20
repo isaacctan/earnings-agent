@@ -1,4 +1,21 @@
 ticker,fiscal_year,quarter,metric,estimate,unit,method
-OMF,2026,3,revenue,150.0,USD millions,Team estimate
-OMF,2026,3,net_income,12.5,USD millions,Team estimate
-OMF,2026,3,diluted_eps,1.25,USD per share,Team estimate
+AAPL,2026,4,revenue,118860.6,USD millions,"Team rough model, pre-release inputs only: year-ago FQ4 FY25 revenue $102.5B x (1 + 16% FQ3 FY26 growth)"
+AAPL,2026,4,operating_income,37615.3,USD millions,"Team rough model, pre-release inputs only: revenue est x year-ago FQ4 operating margin 31.6%"
+AAPL,2026,4,net_income,30882.2,USD millions,"Team rough model, pre-release inputs only: op income est x (1 - 17.9% FQ3 FY26 tax rate); other income assumed 0"
+AAPL,2026,4,diluted_eps,2.1,USD per share,"Team rough model, pre-release inputs only: net income est / FQ3 FY26 diluted shares 14,715M"
+MSFT,2027,1,revenue,91654.1,USD millions,"Team rough model, pre-release inputs only: year-ago FQ1 FY26 revenue $77.7B x (1 + 18% FQ4 FY26 growth)"
+MSFT,2027,1,operating_income,44794.0,USD millions,"Team rough model, pre-release inputs only: revenue est x year-ago FQ1 operating margin 48.9%"
+MSFT,2027,1,net_income,36731.1,USD millions,"Team rough model, pre-release inputs only: op income est x (1 - 18% assumed tax); other income (incl. OpenAI) assumed 0"
+MSFT,2027,1,diluted_eps,4.94,USD per share,"Team rough model, pre-release inputs only: net income est / FQ4 FY26 diluted shares ~7,436M"
+GOOGL,2026,3,revenue,126909.0,USD millions,"Team rough model, pre-release inputs only: year-ago Q3 2025 revenue $102.3B x (1 + 24% Q2 2026 growth)"
+GOOGL,2026,3,operating_income,43189.3,USD millions,"Team rough model, pre-release inputs only: revenue est x Q2 2026 operating margin 34.0% (year-ago Q3 included a $3.5B EC fine)"
+GOOGL,2026,3,net_income,35847.1,USD millions,"Team rough model, pre-release inputs only: op income est x (1 - 17% assumed tax); equity-investment gains assumed 0"
+GOOGL,2026,3,diluted_eps,2.91,USD per share,"Team rough model, pre-release inputs only: net income est / Q2 2026 diluted shares ~12,305M"
+AMZN,2026,3,revenue,199500.0,USD millions,"Team rough model, pre-release inputs only: midpoint of Q3 guidance $197-202B"
+AMZN,2026,3,operating_income,24500.0,USD millions,"Team rough model, pre-release inputs only: midpoint of Q3 guidance $22.5-26.5B"
+AMZN,2026,3,net_income,20090.0,USD millions,"Team rough model, pre-release inputs only: op income est x (1 - 18% assumed tax); other income (incl. Anthropic gains) assumed 0"
+AMZN,2026,3,diluted_eps,1.85,USD per share,"Team rough model, pre-release inputs only: net income est / Q2 2026 diluted shares ~10,887M"
+NVDA,2027,3,revenue,108000.0,USD millions,"Team rough model, pre-release inputs only: Q3 FY27 guidance $108.0B (+/-2%)"
+NVDA,2027,3,operating_income,70720.0,USD millions,"Team rough model, pre-release inputs only: guided revenue x 74.0% GAAP gross margin - $9.2B guided GAAP opex"
+NVDA,2027,3,net_income,58697.6,USD millions,"Team rough model, pre-release inputs only: op income est x (1 - 17%, midpoint of FY27 16-18% tax guidance); other income assumed 0"
+NVDA,2027,3,diluted_eps,2.42,USD per share,"Team rough model, pre-release inputs only: net income est / Q2 FY27 diluted shares 24,285M"
